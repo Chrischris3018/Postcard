@@ -7,6 +7,7 @@ body {
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	padding: 10px;
 }
 .postcard-header {
 	display: flex;
@@ -15,14 +16,22 @@ body {
 img {
 	width: 50px;
 	height: 50px;
+	padding-right: 20px;
 }
 h1 {
 	margin: auto;
-	width: 350px;
+	width: 375px;
 }
 .postcard-body {
 	display: flex;
-	margin: auto;
+}
+.body-right{
+	padding: 18px;
+
+}
+
+.body-right input {
+	margin-top: 5px;
 }
 .postcard-footer {
 	text-align: center;
@@ -31,4 +40,7 @@ h1 {
 button {
 	padding: 5px;
 	background-color: grey;
+	margin-top: 25px;
+	width: 110px;
+	height: 30px;
 }
